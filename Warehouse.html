@@ -20,7 +20,16 @@
         </tr>
       </tbody>
     </table>
-    <p>Total space available: <input type="text" id="count" value="n.d." disabled></p>
+    <p>Total stelpace available: <input type="text" id="count" value="n.d." disabled></p>
+    <button onmousedown="showForm()">Add Items</button>
+    <button onmousedown="addSpace()">Increase warehouse space</button>
+    <div class="separator" style="height:10px;"> </div>
+    <hr>
+    <div class="separator" style="height:10px;"> </div>
+    <div id="form-container">
+      <!-- The form is created here every time the "Add Items" button is pressed-->
+    </div>
     <script src="buttons.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
